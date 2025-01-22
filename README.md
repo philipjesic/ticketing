@@ -12,7 +12,7 @@ Messaging of events is handled using NATS service message broker.
 - **Auth Service**: Manages user authentication and authorization with JSON web tokens.
 - **Tickets Service**: Handles creation, updating, and retrieval of ticket information.
 - **Orders Service**: Manages user orders for tickets.
-- **Payments Service**: Processes payments for orders.
+- **Payments Service**: Processes payments for orders using Stripe payments API.
 - **Expiration Service**: Monitors and expires unpaid orders.
 - **Client**: The Next.js front-end application.
 
